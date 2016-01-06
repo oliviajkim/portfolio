@@ -4,11 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Blank</title>
+    <title>Olivia J. Kim - Developer</title>
 
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" media="(max-width: 640px)" href="css/min-640px.css" >
+    <link rel="stylesheet" media="(min-width:640px)" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dosis:400,300,200,500,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
     <!-- VENDOR SCRIPTS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -17,13 +22,81 @@
     <!-- APPLICATION SCRIPTS -->
     <script src="base.js"></script>
   </head>
+
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h1>We're in good shape.</h1>
+
+      <div class="row" id="main-page">
+        <div class="col-xs-12 pull-left" id="header">
+          <ul class="nav col-sm-6 hidden-xs" id="links">
+            <li><a href="#" class="pull-right">WORK</a></li>
+            <li><a href="public/about.html" class="pull-right">ABOUT</a></li>
+          </ul>
+        </div>
+        <!-- <div class="col-sm-10"> -->
+          <a href="index.html" id="logo"><img src="images/olivia-signature.png" alt=""></a>
+        <!-- </div> -->
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center" id="about">
+          <div class="container">
+            <p id="hello">- HELLO</p>
+            <p id="blurb">I'm <span id="blue">Olivia Kim</span>, a passionate <span id="blue">web developer</span> with a background in illustration and design currently based in the Silicon Valley.</p>
+          </div>
+          <br><br><br>
+            <a href="#work" class="hidden-lg hidden-md hidden-sm text-center"><i class="ion-ios-arrow-down"></i></a>
+        </div>
+      </div>  
+
+
+      <div class="row" id="work">
+          <h2 class="text-center">WORK</h2>
+        <div class="col-sm-10 col-sm-offset-1 projects">
+          <div class="col-sm-4">
+              <div class="card-block">
+                <img src="images/ADC.png" alt="ADC">
+                <a href="public/adc.html"><h4 class="card-title">AD Competitions</h4></a>
+              </div>
+               <!--  <div class="card-block">
+                  <p>AD Competitions allows artists and designers to search for competitions and track of all their deadlines and also sends reminder emails of approaching deadlines.</p><br>
+                  <a href="https://ad-competitions.herokuapp.com/" class="card-link">Website</a>
+                  <a href="https://github.com/oliviajkim/ad-competitions" class="card-link">Github</a>
+                </div> -->
+          </div>
+
+          <div class="col-sm-4">
+              <div class="card-block">
+                <img src="images/fillinthe.png" alt="fill in the" >
+                <a href="public/fillinthe.html"><h4 class="card-title">Fill In The</h4></a>
+              </div>
+            <!-- <div class="card-block">
+              <p>Fill In The is an educational quiz tool for learners of all ages allowing users to save portions of text they would like to learn and remember and generates a quiz with either specific keywords removed or a random number of words removed. Users can also take quizzes created by other users. </p><br>
+              <a href="https://fillinthe.herokuapp.com/" class="card-link">Website</a>
+              <a href="https://github.com/oliviajkim/fill-in-the" class="card-link">Github</a>
+            </div> -->
+          </div>
+          <div class="col-sm-4">
+              <div class="card-block">
+                <img src="images/Weekhack.png" alt="weekhack">
+                <a href="public/weekhack.html"><h4 class="card-title">WeekHack</h4></a>
+              </div>
+            </div>
+            <!-- <div class="card-block">
+              <p>WeekHack utilizes the concept of themed days to help optimize productivity and manage mental energy. By grouping related tasks together, themed days free users’ minds to focus on the tasks that are critical to making progress in all areas of their lives.</p><br>
+              <a href="https://weekhack.herokuapp.com/" class="card-link">Website</a>
+              <a href="https://github.com/oliviajkim/weekhack" class="card-link">Github</a>
+            </div> -->
+
         </div>
       </div>
-    </div>
+      
+      <footer class="row" id="footer">
+        <div class="col-sm-10 col-sm-offset-1 text-center">
+          <h5>CONNECT WITH ME</h5>
+          <a href="https://github.com/oliviajkim" id="social-media"><i class="ion-social-github"></i></a>
+          <a href="https://www.linkedin.com/in/oliviajkim" id="social-media"><i class="ion-social-linkedin"></i></a>
+          <a href="https://www.instagram.com/oliviaj.kim/" id="social-media"><i class="ion-social-instagram-outline"></i></a>
+          <a href="mailto:hello@oliviajkim.com" id="social-media"><i class="ion-android-mail"></i></a>
+          <p id="rights">All Rights Reserved Olivia J. Kim &copy;</p>
+        </div>
+      </footer>
+
   </body>
 </html>

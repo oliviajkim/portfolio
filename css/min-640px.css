@@ -1,15 +1,11 @@
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
   #about {
     font-size:200%;
   }
-}
+}*/
 
 h1 {
-  /*font-family: 'Didact Gothic', sans-serif;*/
   font-family: 'Oswald', sans-serif;
-  /*font-family: 'Unica One', cursive;*/
-  /*font-family: 'Abril Fatface', cursive;*/
-  /*font-family: 'Dosis', sans-serif;*/
   font-size: 30px;
   font-weight: 400;
   margin-left: 30px;
@@ -19,15 +15,14 @@ h1 {
 }
 
 h2 {
-  /*font-family: 'Abril Fatface', cursive;*/
   font-family: 'Oswald', sans-serif;
   color:#9ba8c9;
-  margin-top: 100px;
+  margin-top: 60px;
   font-size: 36px;
   text-decoration: underline;
 }
 
-h3, h5 {
+h5 {
   color:#9ba8c9;
 }
 
@@ -35,6 +30,11 @@ h3, h5 {
   padding-right: 0px;
   padding-left: 0px
 }
+
+.col-sm-4 {
+	margin-bottom: 30px;
+}
+
 
 a {
   margin: 10px;
@@ -48,14 +48,6 @@ img {
   width:100%;
   border: 1px solid lightgray;
 }
-
-#logo img{
-  border: none;
-  width:150px;
-  margin: 30px auto 50px auto;
-  display: block;
-}
-
 
 #main-page, #work {
   height: 100vh;
@@ -75,24 +67,6 @@ img {
   padding: 0px;
 }
 
-/*#links li a:before {
-  position: absolute;
-  top: 100%;
-  left: 25%;
-  width: 50%;
-  height: 3px;
-  background-color: white;
-  content: '';
-  -webkit-transform: translateY(8px);
-  opacity: 0;
-  transition-property: -webkit-transform, opacity;
-  transition-duration: .5s;
-}
-
-#links li a:hover:before {
-   -webkit-transform: translateY(0);
-  opacity: 1;
-}*/
 
 #header {
   margin-bottom: 50px;
@@ -104,6 +78,10 @@ img {
   color:#9ba8c9;
 }
 
+#blurb {
+  font-size: 25px;
+}
+
 #social-media a i:hover {
   text-decoration: none;
   color:#446bce;
@@ -111,10 +89,6 @@ img {
 
 #social-media {
   font-size: 30px;
-}
-
-#work {
-  height:100vh;
 }
 
 
@@ -158,8 +132,8 @@ img {
 }
 
 .card-link {
+  font-family: 'Dosis', sans-serif;
   color: black;
-  font-weight: bold;
 }
 
 .card-link:hover {
@@ -171,10 +145,15 @@ img {
 
 /* Footer */
 
+#footer {
+	margin-top: 450px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
 
 #footer a {
   color:#9ba8c9;
-  bottom: 0px;
 }
 
 #footer a:hover {
@@ -182,48 +161,7 @@ img {
 }
 
 #rights {
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 30px;
   color:#9ba8c9;
 }
-
-
-
-
-
-#profile {
-  margin-bottom: 70px;
-}
-
-#project-details {
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-
-#project-details img {
-  width: 70%;
-}
-
-#profile-picture {
-  border: none;
-}
-
-.specialize li {
-  display: block;
-  margin: 5px;
-  padding: 3px 6px;
-  border-radius: 4px;
-  background-color: #9ba8c9;
-  float: left;
-  color: white;
-}
-
-ul {
-  padding-left: 0;
-}
-
-
-
-
-
-
